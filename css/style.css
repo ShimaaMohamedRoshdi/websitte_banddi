@@ -1,0 +1,147 @@
+body{
+    overflow-x: hidden;
+    scrollbar-width: none;
+}
+
+.wi{
+    width: 50px;
+}
+
+.search{
+    
+    border: 1px solid green;
+}
+.search svg{
+
+    color: green;
+}
+.search svg :hover{
+
+    color: green;
+}
+
+
+.landing{
+    background-color:#19283f;
+    height: 80vh;
+   
+}
+
+
+
+/* secondpage */
+.main-title ::after {
+    content: '';
+    width: 120px;
+    height: 2px;
+    background-color: green;
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%) ;
+  
+}
+
+.icon-holder {
+height: 200px;
+}
+
+.icon-holder svg{
+    left: 50%;
+    transform: translateX(-50%);
+  
+} 
+
+.number{
+
+    font-size: 12rem;
+    color: #EFF7FA;
+}
+.icon{
+    color: green;
+
+}
+
+h4{
+    color: yellow;
+}
+
+/* thirdpage */
+.ourwork{
+    background-color: #EFF7FA;
+}
+
+.active{
+   
+    color: yello;
+}
+.our-work ul li{
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+.box{
+    padding: 5px;
+  
+    
+}
+/* fouth page */
+.description{
+    width: 500px;
+}
+
+/* pageno5 */
+.team{
+    background-color: #EFF7FA;
+}
+
+.box h4{
+   background-color: green; 
+}
+
+/* pageno6 */
+
+/* <!-- page7 --> */
+.project{
+    background-color: #19283F;
+}
+
+/* page8 */
+.subscribe{
+    background-color: yellow;
+}
+.subscribe input[type="text"]
+{
+    border: none;
+    border-bottom: 1px solid white;
+}
+.subscribe input[type="text"]:focus{
+outline: none;
+}
+
+.bbb{
+    background-color: #19283F;
+    color: yellow;
+}
+
+
+
+/* footer */
+
+.footer{
+   background-color: #19283F; 
+}
+
+.copyright > span{
+    color: green;
+}
+
+.copyright div span{
+    color: yellow;
+}
+
+.footer  .contact ul svg{
+    width: 20px;
+    height: 20px;
+}
+
